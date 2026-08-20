@@ -8,7 +8,7 @@ node_modules/
 *.local
 
 # Runtime databases and SQLite journal files
-*.db
+
 *.sqlite
 *.sqlite3
 *-journal

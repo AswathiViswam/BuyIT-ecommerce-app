@@ -15,7 +15,13 @@ const reviewRoutes = require("./routes/reviews");
 const couponRoutes = require("./routes/coupons");
 const userRoutes = require("./routes/user");
 
-app.use(cors());
+app.use(
+    cors({
+        origin: "https://buy-it-ecommerce-app-9kq9.vercel.app",
+        methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+        allowedHeaders: ["Content-Type", "Authorization"],
+    })
+);
 app.use(express.json());
 
 app.get("/", (req, res) => {

@@ -84,7 +84,7 @@ export function Footer() {
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Customer Care</h4>
             <ul className="space-y-2.5 text-sm">
               <li><span className="text-gray-400">24/7 Helpline: +91 800 123 4567</span></li>
-              <li><span className="text-gray-400">Email: support@shopnexus.com</span></li>
+              <li><span className="text-gray-400">Email: support@buyIT.com</span></li>
               <li><span className="text-gray-400">30-Day Free Returns</span></li>
               <li><span className="text-gray-400">100% Authentic Guarantee</span></li>
             </ul>
@@ -94,7 +94,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-          <p>© 2026 ShopNexus Enterprise Inc. All rights reserved.</p>
+          <p>© 2026 BuyIT Enterprise Inc. All rights reserved.</p>
 
           <div className="flex items-center gap-4 text-gray-400 font-semibold text-xs">
             <span>🔒 256-Bit SSL Encryption</span>

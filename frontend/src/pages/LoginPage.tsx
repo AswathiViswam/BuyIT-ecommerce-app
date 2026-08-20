@@ -42,7 +42,7 @@ export function LoginPage() {
         
         <div className="text-center space-y-2">
           <div className="w-16 h-16 bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 rounded-2xl flex items-center justify-center mx-auto text-2xl shadow-inner font-black">
-            S
+            B
           </div>
           <h2 className="text-3xl font-black text-gray-900 dark:text-white">Welcome Back</h2>
           <p className="text-xs text-gray-500 dark:text-gray-400">
@@ -98,7 +98,7 @@ export function LoginPage() {
             disabled={loading}
             className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-2xl transition shadow-lg shadow-indigo-200 dark:shadow-none text-sm disabled:opacity-50 active:scale-98"
           >
-            {loading ? "Signing in..." : "Sign In to ShopNexus"}
+            {loading ? "Signing in..." : "Sign In to BuyIT"}
           </button>
         </form>
 

@@ -48,7 +48,7 @@ export function ResetPasswordPage() {
           </div>
           <h2 className="text-2xl font-black text-gray-900 dark:text-white">Reset Password</h2>
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            Set a new, strong password to secure your ShopNexus account.
+            Set a new, strong password to secure your account.
           </p>
         </div>
 
